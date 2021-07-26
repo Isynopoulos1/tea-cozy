@@ -1,0 +1,25 @@
+body {
+  background-color: black;
+  margin-top: 69px;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+}
+.branding-container {
+  border-bottom: 1px;
+}
+
+.branding-container img {
+  width: 50px;
+  margin-left: 10px;
+}
+
+a {
+  color: white;
+  font-family: helvetica;
+  font-size: 15px;
+  color: seashell;
+  opacity: 0.9;
+  margin-right: 10px;
+}
