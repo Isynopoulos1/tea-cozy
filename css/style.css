@@ -1,0 +1,134 @@
+body {
+  background-color: black;
+  margin-top: 69px;
+}
+
+/*GENERAL DETAILS*/
+
+h2 {
+  font-family: helvetica;
+  font-weight: bold;
+  color: seashell;
+  font-size: 30px;
+}
+h4 {
+  font-family: helvetica;
+  font-weight: bold;
+  color: seashell;
+  font-size: 20px;
+}
+
+/*HEADER SECTION*/
+
+header {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid seashell;
+  height: 70px;
+  width: 1400px;
+  padding-bottom: 10px;
+}
+.branding-container img {
+  width: 50px;
+  margin-left: 10px;
+}
+a {
+  color: white;
+  font-family: helvetica;
+  font-size: 15px;
+  color: seashell;
+  opacity: 0.9;
+  margin-right: 10px;
+}
+
+/*MAIN SECTION*/
+
+main {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.container-1 {
+  background-image: url("../content/background.png");
+  width: 1200px;
+  height: 700px;
+  background-size: cover;
+}
+.main-text h2 {
+  text-align: center;
+  margin-top: 350px;
+  padding-top: 10px;
+}
+.main-text h4 {
+  text-align: center;
+  margin-top: 10px;
+}
+.main-text {
+  height: 80px;
+  width: 1200px;
+  background-color: black;
+}
+.container-2 {
+  width: 1000px;
+}
+.catalogue h2 {
+  text-align: center;
+  margin-top: 50px;
+}
+.catalogue h4 {
+  margin-top: 10px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+/*LIST SECTION*/
+
+.boxes {
+  background-color: inherit;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  grid-gap: 10px;
+}
+.box-1 img {
+  width: 300px;
+  height: 200px;
+}
+.box-1 h4 {
+  text-align: center;
+}
+.box-2 img {
+  width: 300px;
+  height: 200px;
+  background-position: center;
+}
+.box-2 h4 {
+  text-align: center;
+}
+.box-3 img {
+  width: 300px;
+  height: 200px;
+}
+.box-3 h4 {
+  text-align: center;
+}
+.bottom {
+  display: flex;
+  flex-direction: row;
+  grid-gap: 10px;
+}
+.box-4 img {
+  width: 300px;
+  height: 200px;
+}
+.box-4 h4 {
+  text-align: center;
+}
+.box-5 img {
+  width: 300px;
+  height: 200px;
+}
+.box-5 h4 {
+  text-align: center;
+}
