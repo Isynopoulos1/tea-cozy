@@ -1,10 +1,8 @@
 body {
   background-color: black;
-  margin-top: 69px;
 }
 
 /*GENERAL DETAILS*/
-
 h2 {
   font-family: helvetica;
   font-weight: bold;
@@ -17,22 +15,31 @@ h4 {
   color: seashell;
   font-size: 20px;
 }
+h5 {
+  font-family: helvetica;
+  font-weight: bold;
+  color: seashell;
+  font-size: 10px;
+}
 
 /*HEADER SECTION*/
 
 header {
+  position: fixed;
   display: flex;
   justify-content: space-between;
+  background-color: black;
+  width: calc(100% - 30px);
+  align-items: center;
+  padding: 0 15px;
   border-bottom: 1px solid seashell;
-  height: 70px;
-  width: 1400px;
-  padding-bottom: 10px;
+  height: 69px;
 }
 .branding-container img {
   width: 50px;
   margin-left: 10px;
 }
-a {
+header nav a {
   color: white;
   font-family: helvetica;
   font-size: 15px;
@@ -112,31 +119,54 @@ main {
 }
 .container-3 h2 {
   text-align: center;
-  margin-top: 30px;
+  margin-top: 70px;
   margin-bottom: 15px;
 }
 .location-blocks {
-  width: 980px;
-  height: 300px;
-  margin-inline: auto;
-  margin-top: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  grid-gap: 40px;
 }
 .blocks {
-  display: -webkit-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   background-color: black;
-  grid-gap: 40px;
   width: 300px;
   height: 300px;
 }
 .blocks h4 {
   text-align: center;
-  margin-bottom: 60px;
-  margin-top: 50px;
+  margin-bottom: 40px;
 }
 .blocks li {
   text-align: center;
   font-family: helvetica;
-  color: seashell;
-  margin-top: 90px;
+  color: #aaa;
+  margin-bottom: 40px;
   text-align: center;
+}
+
+/*CONTACT SECTION*/
+.contact {
+  width: 1200px;
+  height: 200px;
+  background-color: inherit;
+}
+.contact h4 {
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+.contact h5 {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+/*FOOTER SECTION*/
+footer {
+  margin-top: 30px;
+  margin-left: 20px;
 }
